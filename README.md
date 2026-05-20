@@ -5,7 +5,7 @@
 ### SOC Analyst in Training · Cybersecurity Portfolio
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmad-barakat-809b19b7/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ahmadbarakat9@yahoo.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ahmadbarakat914@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=githubpages&logoColor=white)](#)
 [![Location](https://img.shields.io/badge/Overland_Park,_KS-1F2937?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
 
@@ -135,7 +135,7 @@ Command & Control→  T1071      Application Layer Protocol
 
 If you're hiring for a SOC Analyst role or just want to talk detection engineering — reach out.
 
-[![Email Me](https://img.shields.io/badge/-ahmadbarakat9@yahoo.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ahmadbarakat9@yahoo.com)
+[![Email Me](https://img.shields.io/badge/-ahmadbarakat914@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ahmadbarakat9@yahoo.com)
 [![LinkedIn](https://img.shields.io/badge/-Ahmad_Barakat-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmad-barakat-809b19b7/)
 
 </div>
