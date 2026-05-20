@@ -191,7 +191,7 @@ Multi-model facial recognition pipeline on a 10-celebrity dataset. Debugged data
 
 If you're hiring for a **SOC Analyst** role — or just want to talk detection engineering — open a channel.
 
-[![Email](https://img.shields.io/badge/-ahmadbarakat9@yahoo.com-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0B0C10)](mailto:ahmadbarakat914@gmail.com)
+[![Email](https://img.shields.io/badge/-ahmadbarakat914@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0B0C10)](mailto:ahmadbarakat914@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/-Ahmad_Barakat-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0B0C10)](https://www.linkedin.com/in/ahmad-barakat-809b19b7/)
 
 </div>
