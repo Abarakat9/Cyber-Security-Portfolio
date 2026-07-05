@@ -5,30 +5,36 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&duration=2800&pause=900&color=66FCF1&center=true&vCenter=true&width=720&lines=Detecting+threats+before+they+become+incidents.;SIEM+%E2%80%A2+EDR+%E2%80%A2+KQL+%E2%80%A2+MITRE+ATT%26CK;Building+the+next+SOC+analyst+from+the+ground+up.)](#)
 
 [![Status](https://img.shields.io/badge/STATUS-OPEN_TO_WORK-22C55E?style=for-the-badge&labelColor=0B0C10)](#)
-[![Threat Level](https://img.shields.io/badge/THREAT_LEVEL-VIGILANT-FBBF24?style=for-the-badge&labelColor=0B0C10)](#)
 [![Location](https://img.shields.io/badge/LOCATION-KC_METRO-66FCF1?style=for-the-badge&labelColor=0B0C10)](#)
 
 </div>
 
 ---
 
-## `▮ SITREP`
+## About
 
-```yaml
-operator:        Ahmad Barakat
-designation:     SOC Analyst — entry-level, ready for deployment
-education:       B.S. Information Technology / Applied Cybersecurity — KU '26
-day-job:         Customer Support Specialist @ DHL Express
-clearance:       CompTIA Security+ (SY0-701) · Microsoft AZ-900
-station:         Overland Park, KS — Kansas City Metro · open to remote
-mission:         Detect. Triage. Contain. Improve the detection.
-```
+I'm a final-semester IT student working toward a SOC analyst role, with hands-on time in Microsoft Sentinel, Defender for Endpoint, KQL, Tenable, and AWS security services. This repository holds the labs, write-ups, and capstone work behind that goal.
 
-> Final-semester IT student with hands-on time in **Microsoft Sentinel, Defender for Endpoint, KQL, Tenable, and AWS security services**. This repository is the operations log — labs, write-ups, and capstone work building toward a SOC Analyst I role.
+- **Role:** Aspiring SOC Analyst (entry-level)
+- **Education:** B.S. Information Technology / Applied Cybersecurity — University of Kansas, Dec 2026
+- **Currently:** IT Support Specialist @ VinCue
+- **Location:** Overland Park, KS (Kansas City Metro) · open to remote
+- **Certification:** CompTIA Security+ (SY0-701)
 
 ---
 
-## `▮ DETECTION PIPELINE`
+## Portfolio
+
+| Folder | What's there |
+|---|---|
+| [`soc/`](soc/) | SIEM detection rules, EDR investigations, ATT&CK-mapped analytics |
+| [`tryhackme/`](tryhackme/) | Write-ups and notes from TryHackMe rooms, including the SAL1 path |
+| [`vulnerability-management/`](vulnerability-management/) | Scanning, prioritization, and remediation tracking |
+| [`cloud-security/`](cloud-security/) | AWS/Azure hardening, edge defense, and identity configuration |
+
+---
+
+## Detection Pipeline
 
 ```mermaid
 flowchart LR
@@ -48,13 +54,13 @@ flowchart LR
 
 ---
 
-## `▮ ARSENAL`
+## Skills & Tools
 
 <table>
 <tr>
 <td valign="top" width="50%">
 
-**`SIEM // DETECTION`**
+**SIEM / Detection**
 
 ![Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![Defender](https://img.shields.io/badge/Defender_for_Endpoint-0078D4?style=flat-square&logo=microsoft&logoColor=white)
@@ -62,7 +68,7 @@ flowchart LR
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
 ![Tenable](https://img.shields.io/badge/Tenable-00A1E0?style=flat-square&logo=tenable&logoColor=white)
 
-**`CLOUD // IDENTITY`**
+**Cloud / Identity**
 
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)
@@ -72,14 +78,14 @@ flowchart LR
 </td>
 <td valign="top" width="50%">
 
-**`FRAMEWORKS`**
+**Frameworks**
 
 ![MITRE](https://img.shields.io/badge/MITRE_ATT%26CK-BA0C2F?style=flat-square)
 ![NIST](https://img.shields.io/badge/NIST_CSF-005DAA?style=flat-square)
 ![RBAC](https://img.shields.io/badge/RBAC-1F2833?style=flat-square)
 ![MFA](https://img.shields.io/badge/MFA-1F2833?style=flat-square)
 
-**`LANG // TOOLS`**
+**Languages & Tools**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
@@ -93,25 +99,25 @@ flowchart LR
 
 ---
 
-## `▮ ACTIVE OPERATIONS`
+## Projects
 
 <table>
 <tr><td>
 
-### `[ OP-001 ]` 🛡️ K.E.V.I.N. — Smart Home Defense Grid
-> **Role:** Security Architect &nbsp;·&nbsp; **Stack:** AWS · Python · ALB · WAF
+### 🛡️ K.E.V.I.N. — Smart Home Defense Grid
+**Role:** Security Architect &nbsp;·&nbsp; **Stack:** AWS · Python · ALB · WAF
 
-End-to-end secure smart-home web application. Started life as a Python application-layer firewall, then re-architected onto a cloud-native edge stack — AWS ALB + WAF with managed rule groups including **SQLi protection**, defense-in-depth from edge to app.
+End-to-end secure smart-home web application. Started life as a Python application-layer firewall, then re-architected onto a cloud-native edge stack — AWS ALB + WAF with managed rule groups including SQLi protection, defense-in-depth from edge to app.
 
 `AWS WAF` `ALB` `Python` `Defense in Depth`
 
 </td></tr>
 <tr><td>
 
-### `[ OP-002 ]` 💻 Malicious PowerShell Executions — Detection Lab
-> **Role:** Solo build &nbsp;·&nbsp; **Stack:** Sentinel · KQL · Defender for Endpoint
+### 💻 Malicious PowerShell Executions — Detection Lab
+**Role:** Solo build &nbsp;·&nbsp; **Stack:** Sentinel · KQL · Defender for Endpoint
 
-Detection engineering lab targeting adversarial PowerShell — encoded commands, AMSI bypass attempts, download cradles, and suspicious cmdlet chains. Custom KQL analytics rules mapped to **T1059.001**, alert thresholds tuned for low false-positive rate.
+Detection engineering lab targeting adversarial PowerShell — encoded commands, AMSI bypass attempts, download cradles, and suspicious cmdlet chains. Custom KQL analytics rules mapped to T1059.001, alert thresholds tuned for low false-positive rate.
 
 ```kql
 // Sample: encoded PowerShell execution
@@ -127,20 +133,20 @@ DeviceProcessEvents
 </td></tr>
 <tr><td>
 
-### `[ OP-003 ]` 🔍 Azure SIEM Threat Detection Lab
-> **Role:** Solo build &nbsp;·&nbsp; **Stack:** Sentinel · KQL · Log Analytics
+### 🔍 Azure SIEM Threat Detection Lab
+**Role:** Solo build &nbsp;·&nbsp; **Stack:** Sentinel · KQL · Log Analytics
 
-Honeypot-style detection environment streaming Windows + network telemetry into Sentinel. Custom analytics rules mapped to **T1110** (brute force) and **T1071** (C2 over application-layer protocols). End-to-end: ingestion → analytics → workbook visualization.
+Honeypot-style detection environment streaming Windows + network telemetry into Sentinel. Custom analytics rules mapped to T1110 (brute force) and T1071 (C2 over application-layer protocols). End-to-end: ingestion → analytics → workbook visualization.
 
 `Sentinel` `KQL` `MITRE ATT&CK`
 
 </td></tr>
 <tr><td>
 
-### `[ OP-004 ]` 👁️ Facial Recognition AI — ITEC-612 Capstone
-> **Role:** Engineer & Debug Lead &nbsp;·&nbsp; **Stack:** Python · OpenCV · NumPy · Colab
+### 👁️ Facial Recognition AI — ITEC-612 Capstone
+**Role:** Engineer & Debug Lead &nbsp;·&nbsp; **Stack:** Python · OpenCV · NumPy · Colab
 
-Multi-model facial recognition pipeline on a 10-celebrity dataset. Debugged dataset URL handling, resolved missing `test_paths` keys in `.npz` artifacts, refined PIL/OpenCV preprocessing chain. Final result: **100% accuracy across all four models**.
+Multi-model facial recognition pipeline on a 10-celebrity dataset. Debugged dataset URL handling, resolved missing `test_paths` keys in `.npz` artifacts, refined PIL/OpenCV preprocessing chain. Final result: 100% accuracy across all four models.
 
 `Python` `OpenCV` `ML Ops` `Image Pipelines`
 
@@ -149,7 +155,7 @@ Multi-model facial recognition pipeline on a 10-celebrity dataset. Debugged data
 
 ---
 
-## `▮ ADVERSARY MODEL — ATT&CK COVERAGE`
+## ATT&CK Coverage
 
 ```
 ┌─ TACTIC ─────────────────┬─ TECHNIQUE ─┬─ NAME ──────────────────────────┐
@@ -163,33 +169,29 @@ Multi-model facial recognition pipeline on a 10-celebrity dataset. Debugged data
 
 ---
 
-## `▮ CREDENTIALS`
+## Certifications
 
 | Credential | Issuer | Status |
 |---|---|:---:|
 | **Security+ (SY0-701)** | CompTIA | ![Active](https://img.shields.io/badge/-ACTIVE-22C55E?style=flat-square) |
-| **Azure Fundamentals (AZ-900)** | Microsoft | ![Active](https://img.shields.io/badge/-ACTIVE-22C55E?style=flat-square) |
 | **SAL1 — Security Analyst Level 1** | TryHackMe | ![In Progress](https://img.shields.io/badge/-IN_PROGRESS-FBBF24?style=flat-square) |
 
 ---
 
-## `▮ CURRENT OBJECTIVES`
+## Current Focus
 
-```diff
-+ [ACTIVE]    Final semester @ University of Kansas — graduating 2026
-+ [ACTIVE]    TryHackMe SAL1 — Security Analyst Level 1
-+ [ACTIVE]    Interviewing for SOC Analyst I roles
-! [ONGOING]   Sharpening OSI model + port/protocol fluency for tech screens
-! [ONGOING]   Expanding detection rule library — MITRE-mapped KQL
-```
+- Finishing my final semester at the University of Kansas (graduating 2026)
+- Working through TryHackMe's SAL1 — Security Analyst Level 1 path
+- Sharpening OSI model and port/protocol fluency for technical interviews
+- Expanding my library of MITRE-mapped KQL detection rules
 
 ---
 
-## `▮ COMMS`
+## Contact
 
 <div align="center">
 
-If you're hiring for a **SOC Analyst** role — or just want to talk detection engineering — open a channel.
+If you're hiring for a SOC Analyst role, open a channel.
 
 [![Email](https://img.shields.io/badge/-ahmadbarakat914@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0B0C10)](mailto:ahmadbarakat914@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/-Ahmad_Barakat-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0B0C10)](https://www.linkedin.com/in/ahmad-barakat-809b19b7/)
