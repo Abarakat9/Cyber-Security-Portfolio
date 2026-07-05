@@ -1,5 +1,13 @@
 # Cloud Security
 
-Cloud architecture and hardening work across AWS and Azure.
+Cloud and IoT security architecture — designing how systems protect data and enforce trust across distributed, internet-connected environments.
 
-Includes edge/defense-in-depth designs (ALB + WAF, managed rule groups), identity and access configuration (Entra ID, RBAC, MFA), and related security-review notes.
+## Projects
+
+| Project | What it demonstrates |
+|---|---|
+| [KEVIN Smart Home Security Architecture](KEVIN%20Smart%20Home%20Security%20Architecture/) | Capstone security-architect role: defense-in-depth, Zero Trust, IAM/RBAC, encryption, and IoT compliance (NIST IR 8259, OWASP IoT Top 10, NIST SP 800-207) for a smart-home application |
+
+## Frameworks & concepts
+
+Defense-in-Depth · Zero Trust (NIST SP 800-207) · IAM / RBAC / MFA · AES-256 · TLS 1.3 · NIST IR 8259 · OWASP IoT Top 10

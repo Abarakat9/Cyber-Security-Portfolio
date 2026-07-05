@@ -1,7 +1,13 @@
 # Python Security Projects
 
-Security tooling, automation, and applied programming projects written in Python.
+Applied Python for AI and security — building and evaluating machine-learning pipelines and reasoning about probability, confidence, and the ethics of the systems involved.
 
-Includes scripting for log parsing and enrichment, detection support tooling, and larger builds such as the Facial Recognition AI capstone (four-model Python/OpenCV pipeline).
+## Projects
 
-Each project lives in its own subfolder with a README covering the goal, approach, and results.
+| Project | What it demonstrates |
+|---|---|
+| [Facial Recognition AI](Facial%20Recognition%20AI/) | Full ML pipeline (preprocessing → dlib face detection/alignment → 128-D embeddings → SVM/KNN/LogReg/Cosine classifiers) reaching 100% test accuracy, with candid limitation and ethics analysis |
+
+## Tools & libraries
+
+Python · NumPy · dlib · face_recognition · scikit-learn · OpenCV
