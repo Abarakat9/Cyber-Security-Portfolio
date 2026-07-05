@@ -37,3 +37,7 @@ A companion research paper making the case for pairing Zero Trust with AI in a m
 - `KEVIN Presentation.pptx` — the capstone presentation deck
 - `Team Formation.docx` — team charter and project plan
 - `App - *.jpg` — six UI screenshots of the working dashboard (Home, Network, Notifications, Power Usage, Settings, About)
+
+## Related
+
+- [AWS ALB and WAF Deployment](../AWS%20ALB%20and%20WAF%20Deployment/) — the hands-on AWS implementation of the edge defense described here: an Application Load Balancer fronted by AWS WAF with managed rule groups for SQL injection, XSS, bad inputs, and malicious-IP filtering.

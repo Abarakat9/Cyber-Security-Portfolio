@@ -30,6 +30,7 @@ Detection engineering, threat hunting, and incident response in Microsoft Sentin
 ### [Cloud Security](Cloud%20Security/)
 Cloud and IoT security architecture.
 - [KEVIN Smart Home Security Architecture](Cloud%20Security/KEVIN%20Smart%20Home%20Security%20Architecture/) — capstone security-architect role: defense-in-depth, Zero Trust, IAM, IoT compliance
+- [AWS ALB and WAF Deployment](Cloud%20Security/AWS%20ALB%20and%20WAF%20Deployment/) — deployed an Application Load Balancer fronted by AWS WAF with managed rule groups (SQLi, XSS, malicious-IP filtering)
 
 ### [TryHackMe](TryHackMe/)
 Blue-team room write-ups and the SAL1 path *(in progress)*.
@@ -53,6 +54,7 @@ Scanning, prioritization, and remediation.
 
 - **PowerShell Suspicious Web Request** *(Security Operations)* — Built a Sentinel KQL detection for PowerShell download cradles, confirmed execution in Defender for Endpoint, isolated the host, and closed the incident as a True Positive with a full report. Mapped to ATT&CK T1059.001.
 - **K.E.V.I.N. — Smart Home Security Architecture** *(Cloud Security)* — Capstone security architect: authored the defense-in-depth / Zero Trust compliance policy and AI-Zero-Trust research paper for an IoT smart-home app, mapped to NIST IR 8259, OWASP IoT Top 10, and NIST SP 800-207.
+- **AWS ALB + WAF Edge Defense** *(Cloud Security)* — Deployed an Application Load Balancer fronted by AWS WAF with managed rule groups (SQL injection, XSS, bad inputs, malicious-IP filtering) as the hardened internet edge for the K.E.V.I.N. web app.
 - **AD Domain Controller Vulnerability Scan** *(Vulnerability Management)* — Discovered and scanned a Windows Server target with Nmap/Nessus/OpenVAS, remediated SMBv1, and proved the fix with a before/after re-scan.
 - **Facial Recognition AI** *(Python Security Projects)* — Four-model Python/OpenCV pipeline (SVM, KNN, Logistic Regression, Cosine Similarity) at 100% test accuracy, with candid limitation and ethics analysis.
 
@@ -62,7 +64,7 @@ Scanning, prioritization, and remediation.
 
 **SIEM / Detection:** Microsoft Sentinel · Defender for Endpoint · KQL · Defender Advanced Hunting · Wireshark
 **Vulnerability Mgmt:** Nessus · OpenVAS · Nmap / Zenmap · CVSS
-**Cloud / Identity:** Zero Trust (NIST SP 800-207) · IAM / RBAC / MFA · Defense-in-Depth
+**Cloud / Identity:** AWS (ALB, WAF) · Zero Trust (NIST SP 800-207) · IAM / RBAC / MFA · Defense-in-Depth
 **GRC / Frameworks:** NIST SP 800-30 / 800-34 / 800-63 · PCI DSS · HIPAA · MITRE ATT&CK
 **Languages & Tools:** Python · PowerShell · Bash · Git · Linux · VirtualBox
 
