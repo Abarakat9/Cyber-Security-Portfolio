@@ -27,7 +27,7 @@ I'm a final-semester IT student working toward a SOC analyst role, with hands-on
 
 | Folder | What's there |
 |---|---|
-| [`soc/`](soc/) | SIEM detection rules, EDR investigations, ATT&CK-mapped analytics |
+| [`Security Operations/`](Security%20Operations/) | SIEM detection rules, EDR investigations, ATT&CK-mapped analytics |
 | [`tryhackme/`](tryhackme/) | Write-ups and notes from TryHackMe rooms, including the SAL1 path |
 | [`vulnerability-management/`](vulnerability-management/) | Scanning, prioritization, and remediation tracking |
 | [`cloud-security/`](cloud-security/) | AWS/Azure hardening, edge defense, and identity configuration |
